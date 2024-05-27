@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Multiple and Single Select</title>
+  </head>
+  <body>
+    <h1>Muitple and Single Select</h1>
+    <hr />
+    <!-- Single select -->
+    <div>
+      <label>Select your best programming languages and libraries</label>
+    </div>
+    <select name="languages">
+      <option value="NodeJS">NodeJS</option>
+      <option value="JavaScript">JavaScript</option>
+      <!-- value given in the option in the value that going to pass to the server not the thing wrritern in between -->
+      <option value="Java">Java</option>
+      <option value="python">python</option>
+      <option value="MongoDB">MongoDB</option>
+      <option value="ReactJS">ReactJS</option>
+      <option value="ExpressJS">ExpressJS</option>
+    </select>
+    <!-- In program we call DRY(dont repeat yourself) -->
+    <!-- if you want to select any option by default you have add an attribute to the option called "selected" to make that value selected by default or else the first value will be selected by default -->
+    <br />
+    <br />
+    <!-- Multiple Select -->
+    <div>
+      <label>Select your best programming languages and libraries</label>
+    </div>
+    <select name="languages" multiple>
+      <option value="NodeJS">NodeJS</option>
+      <option value="JavaScript">JavaScript</option>
+      <!-- value given in the option in the value that going to pass to the server not the thing wrritern in between -->
+      <option value="Java">Java</option>
+      <option value="python">python</option>
+      <option value="MongoDB">MongoDB</option>
+      <option value="ReactJS">ReactJS</option>
+      <option value="ExpressJS">ExpressJS</option>
+    </select>
+    <!-- and in multiple select if you any option to be selected by default , you can add multiple to the multiple select for eq:-
+    <option selected value="MongoDB">MongoDB</option>
+    <option selected value="ReactJS">ReactJS</option>
+    <option selected value="ExpressJS">ExpressJS</option>-->
+  </body>
+</html>

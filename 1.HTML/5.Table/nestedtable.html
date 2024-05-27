@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nested HTML Table</title>
+  </head>
+  <body>
+    <!-- Nested HTML table -->
+    <h1>Nested HTML Table</h1>
+    <hr />
+    <table style="width: 100%; border: 1px solid #ccc; margin: 10px">
+      <caption style="text-align: left; font-weight: bolder; margin: 10px">
+        Employees information
+      </caption>
+      <tr>
+        <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Name
+        </th>
+        <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Age
+        </th>
+        <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Gender
+        </th>
+        <th style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Department
+        </th>
+      </tr>
+      <!-- Table Data 1 -->
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ccc">Mohit</td>
+        <td style="padding: 10px; border: 1px solid #ccc">19</td>
+        <td style="padding: 10px; border: 1px solid #ccc">Male</td>
+        <td>
+          <!-- !Nested -->
+          <table style="width: 100%; margin: 0; border: none">
+            <!-- Nested Table Head -->
+            <tr>
+              <th style="background-color: #f0f0f0; padding: 5px">
+                Department Name
+              </th>
+              <th style="background-color: #f0f0f0; padding: 5px">Manager</th>
+              <th style="background-color: #f0f0f0; padding: 5px">Sales</th>
+            </tr>
+            <!-- ?Nested Table Data -->
+            <tr>
+              <td>Sales</td>
+              <td>Emma</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <td>IT</td>
+              <td>Ben</td>
+              <td>$8000</td>
+            </tr>
+            <tr>
+              <td>Marketing</td>
+              <td>Rock</td>
+              <td>$20000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- *table data 2 -->
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Bhoomika
+        </td>
+        <td style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          19
+        </td>
+        <td style="padding: 10px; border: 1px solid #ccc; text-align: left">
+          Female
+        </td>
+        <td>
+          <!-- !Nested -->
+          <table style="width: 100%; margin: 0; border: none">
+            <!-- Nested Table Head -->
+            <tr>
+              <th style="background-color: #f0f0f0; padding: 5px">
+                Department Name
+              </th>
+              <th style="background-color: #f0f0f0; padding: 5px">Manager</th>
+              <th style="background-color: #f0f0f0; padding: 5px">Sales</th>
+            </tr>
+            <!-- ?Nested Table Data -->
+            <tr>
+              <td>Finance</td>
+              <td>Fifi</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <td>Security</td>
+              <td>Andy</td>
+              <td>$8000</td>
+            </tr>
+            <tr>
+              <td>Software</td>
+              <td>Kevin</td>
+              <td>$9000</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

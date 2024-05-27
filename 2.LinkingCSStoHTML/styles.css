@@ -1,0 +1,9 @@
+/* here the style.css name is absolute we can use any name and here we will get to know how to connect with HTML file externally */
+h1{
+    color: blue;
+}
+p{
+    color: brown;
+    font-size: 30px;
+}
+/* This is the best of using CSS */

@@ -13,4 +13,5 @@ Why follow my journey?
 - Growth: Witness my evolution from a novice to a proficient MERN stack developer.
 - Community: Welcoming feedback, suggestions, and collaboration for mutual growth.
 
+
 Thank you for visiting! I'm excited about this journey and aim to inspire and learn from the developer community. Stay tuned for updates!

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline-Block Elements</title>
+  </head>
+  <body>
+    <h1>Inline vs Block Level Element</h1>
+    <hr />
+    <!-- ! Inline Elements -->
+    <!-- Does not create a new line and prints it in a same line (Example is A tag or link tag)-->
+    <!-- Example are span, a, strong, em -->
+    <a href="">Read more more content</a>
+    <a href="">Delete</a>
+
+    <!-- Adding same color to the inline element (this was done after the block was done to show that inline doesnt occupy the whole) -->
+
+    <a style="background-color: red" href="">Read more more content</a>
+    <a style="background-color: red" href="">Delete</a>
+
+    <!-- There is one use case of inline element which is sed for styling 
+    see down, when using block but we have just color only a particular part we can inline to do that(done below)
+    -->
+
+    <!-- ? Block Level Element -->
+    <!-- Example are h1 , p , form -->
+    <p>Paragraph</p>
+    <!-- if you see in the live server it might show you once small place the paragraph is written but it will take whole space till the end of that line
+    and here now by using Css we can tell that it uses the full place -->
+    <p style="background-color: red">paragraph</p>
+    <!-- Now you can see the difference of inline and block -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+      recusandae nulla deleniti voluptate aspernatur et consequuntur eum sequi
+      animi vel sunt, dolorum esse? Illum alias aliquid voluptates reiciendis
+      incidunt deleniti.
+    </p>
+    <p>
+      <!-- As discuss above about the use case to only color a specific in that Lorem text , we use span and for italics we use em(emphasize iguess) -->
+      <span style="color: fuchsia; font-size: 40px">Lorem</span> ipsum dolor sit
+      amet consectetur adipisicing elit. Dolorum, assumenda excepturi id non at
+      animi aperiam nemo qui porro error,
+      <em style="color: blueviolet; font-size: 20px">labore expedita placeat</em
+      >. Reiciendis perferendis consectetur aperiam necessitatibus a in.
+    </p>
+  </body>
+</html>
