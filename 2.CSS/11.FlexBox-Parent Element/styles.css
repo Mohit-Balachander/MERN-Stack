@@ -1,8 +1,12 @@
 /* Flexbox */
 .container {
     background-color: blue;
+    height: 900px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Put row*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .item {
     width: 100px;
