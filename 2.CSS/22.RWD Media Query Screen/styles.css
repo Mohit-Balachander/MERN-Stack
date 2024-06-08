@@ -11,11 +11,20 @@
   padding: 40px;
 }
 /* Small Desktops: Adjust styles for screen widths up to 1439px */
-@media(max-width:1439px){
+/* @media(max-width:1439px){
+    .header{
+        background-color: darkorange;
+    }
+} */
+@media screen and (max-width:1439px){
     .header{
         background-color: darkorange;
     }
 }
+
+/* ? Here ABOVE Two syntax give the same result */
+
+
 /* Tablets: Adjust styles for screen widths upto 1279px */
 @media(max-width:1279px){
     .header{
